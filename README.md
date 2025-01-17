@@ -51,3 +51,17 @@ npm run dev
 - GET /api/users/:id - Get user by ID
 - PUT /api/users/:id - Update user
 - DELETE /api/users/:id - Delete user
+
+## Features
+
+- ✅ User registration with password hashing
+- ✅ JWT-based authentication
+- ✅ Protected routes with middleware
+- ✅ Input validation
+- ✅ Error handling
+- 🚧 Password reset functionality (coming soon)
+- 🚧 Email verification (coming soon)
+
+## Status
+
+Active development - Last updated January 2025
