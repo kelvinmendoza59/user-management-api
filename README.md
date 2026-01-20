@@ -64,10 +64,10 @@ NODE_ENV=development
 # Database
 MONGODB_URI=mongodb://localhost:27017/secureauth
 # Or use MongoDB Atlas:
-# MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/secureauth
+# MONGODB_URI=mongodb+srv://<user>:<pass>@<cluster>.mongodb.net/<dbname>
 
 # JWT Configuration
-JWT_SECRET=your_super_secret_key_change_this_in_production
+JWT_SECRET=<your-secret-key-here>
 JWT_EXPIRES_IN=7d
 
 # Security
